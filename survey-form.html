@@ -1,0 +1,32 @@
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <h1 id="title">Survey Form</h1>
+    <p id="description">Fill the information below</p>
+    <form id="survey-form">
+<input type="text" id="name" placeholder="Your Name" required>
+<label for="name" id="name-label">Your Name</label>
+
+<input type="email" id="email" placeholder="Your Email" required>
+<label for="email" id="email-label">Your Email</label>
+<input type="number" id="number" min="18" max="120" placeholder="Your Age" required>
+<label for="number" id="number-label">Your Number</label>
+<select id="dropdown">
+<!-- Add at least two options to the dropdown -->
+<!-- Option 1 -->
+<option>Option 1</option>
+<!-- Option 2 -->
+<option>Option 2</option>
+<!-- Radio Buttons Grouped using the name attribute -->
+<input type="radio" name="group" value="option1" /> Option 1<br/>
+<input type="radio" name="group" value="option2" /> Option 2<br/>
+<!-- Checkboxes with value attributes -->
+<input type="checkbox" name="checkboxes" value="checkbox1" /> Checkbox 1<br/>
+<input type="checkbox" name="checkbox2" value="option2">Checkbox 2<br/>
+</select>
+<!-- Existing form fields -->
+<!-- Additional Textarea -->
+<textarea rows="4" cols="50" placeholder="Additional Comments"></textarea>
+<!-- Submit Button -->
+<input type="submit" id="submit" value="Submit">
+</form>
+</html>
